@@ -124,7 +124,7 @@ article code {
   color: #66d7d1;
 }
 
-@media (max-width: 576px) {
+@media only screen and (max-width: 576px) {
   body {
     flex-direction: column;
     width: 100%;
