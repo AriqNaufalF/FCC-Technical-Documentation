@@ -52,7 +52,6 @@ main {
   flex-grow: 2;
   height: 100vh;
   overflow-y: scroll;
-  margin-bottom: 2rem;
 }
 
 header {
@@ -82,7 +81,7 @@ li {
 
 img {
   width: 40%;
-  min-width: 320px;
+  /* min-width: 350px; */
 }
 
 .mark {
@@ -123,6 +122,20 @@ article code {
 
 .tag-attribute {
   color: #66d7d1;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  border-top: #f2efea 3px solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
 
 @media only screen and (max-width: 576px) {
